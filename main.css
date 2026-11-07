@@ -10,12 +10,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;          /* chừa chỗ cho thanh taskbar, tránh đè lên container */
+    padding-top: 90px;         
     background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
     background-attachment: fixed;
 }
 
-/* ===== Thanh trên cùng ===== */
+
 .taskbar {
     position: absolute;
     top: 0;
@@ -70,7 +70,7 @@ body {
     box-shadow: none;
 }
 
-/* ===== Nội dung chính ===== */
+
 .container {
     width: 500px;
     max-width: 90%;
@@ -81,7 +81,7 @@ body {
 }
 
 .cityinfo {
-    width: 100%;                /* bằng chiều rộng hàng 3 card bên dưới */
+    width: 100%;               
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,12 +123,12 @@ body {
 .doam,
 .gio,
 .apsuat {
-    flex: 1;                    /* chia đều 3 card, bỏ width cố định */
+    flex: 1;                   
     min-height: 100px;
     display: flex;
-    flex-direction: column;     /* nhãn trên, giá trị dưới */
-    justify-content: center;    /* căn giữa theo chiều dọc */
-    align-items: center;        /* căn giữa theo chiều ngang */
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;       
     gap: 6px;
     padding: 16px;
     border-radius: 24px;
