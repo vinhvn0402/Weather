@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 90px;          /* chừa chỗ cho thanh taskbar, tránh đè lên container */
-    
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-attachment: fixed;
 }
 
 /* ===== Thanh trên cùng ===== */
@@ -22,7 +23,7 @@ body {
     width: 100%;
     padding: 16px 24px;
     background: #ffffff;
-    box-shadow: 0 6px 16px #c9c9c9;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .find {
